@@ -5,6 +5,7 @@ body{
     background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
   
 
 }
@@ -118,7 +119,7 @@ select{
 }
 
 
-@media(max-width: 500px){
+@media(max-width: 620-px){
 
     body{
         height: 100vh;
