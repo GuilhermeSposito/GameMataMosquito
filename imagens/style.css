@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monomaniac+One&family=Press+Start+2P&family=Tilt+Prism&display=swap');
+
+body{
+
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+
+}
+
+
+#mosquito1{
+
+width: 50px;
+height: 50px;
+
+}
+
+#mosquito2{
+    width:70px;
+    height: 70px;
+
+}
+
+#mosquito3{
+    width: 90px;
+    height: 90px;
+
+}
+
+.container{
+width: 190px;
+height: 100px;
+position: absolute;
+bottom: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.5);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+#cora{
+    float: left;
+    width: 40px;
+    height: 40px;
+    
+}
+
+
+.cronometro{
+    color: white;
+    font-size: 19px;
+}
+
+.container-game{
+
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button{
+
+    font-size: 12px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    width: 170px;
+    height: 40px;
+    background-color: rgb(116, 23, 23);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+select{
+
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+
+}
+
+.game-over{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-reiniciar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.criado-por{
+
+    color: white;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 15px;    
+    text-align: center;
+    margin: 10px auto;
+
+
+
+}
+
+.desenvol-div{
+    display: flex;
+    justify-content: center;
+}

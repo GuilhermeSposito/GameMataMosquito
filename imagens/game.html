@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mata Mosquito</title>
+    <style>
+        html{
+            cursor: url('mata_mosca.png') 30 30, auto ;
+        }
+        </style>
+    <link rel="shortcut icon" href="mosca.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onresize="ajusteDeTela()">
+    
+<div class="container">
+   <div id="coras">
+        <img  id="cora" src="coracao_cheio.png" alt="s2">
+        <img  id="cora" src="coracao_cheio.png" alt="s2">
+        <img  id="cora" src="coracao_cheio.png" alt="s2">
+   </div>
+   <div class="cronometro">
+       <b> cronometro : <span id="cronometro"></span></b>
+   </div>
+</div>
+
+
+
+
+<script src="game.js"></script>
+</body>
+</html>

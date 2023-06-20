@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Mata mosquito!</title>
+    <link rel="shortcut icon" href="mosca.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container-game">
+        <div class="div-logo">
+             <img src="game.png" alt="game mata Mosquito "> 
+        </div>
+
+    <div>
+        <select name="dificuldade" id="dificuldade">
+            <option value="">
+                --Selecione A dificuldade--
+            </option>
+
+                     <option value="facil">
+                        Facil
+                     </option>
+                                   <option value="medio">
+                                      Médio
+                                     </option>
+
+                    <option  value="dificil">
+                          Dificil
+                    </option>   
+
+            <option value="super">
+                Super dificil
+            </option> 
+
+        </select>
+    </div>
+
+    <div class="button-container">
+        <button onclick=" inicioDeJogo()"> Íniciar Jogo </button>
+
+    </div>
+
+
+    </div> 
+
+    <div class="desenvol-div">
+        <span class="criado-por">Desenvolvido Por Guilherme Sposito</span>
+    </div>
+<script>
+
+    
+function  inicioDeJogo() {
+
+   var dificuldade =  document.getElementById('dificuldade').value
+    
+   if( dificuldade === ''){
+    alert('Selecione Uma Dificuldade')
+   }else{
+    window.location.href = `game.html?${dificuldade}`
+   }
+
+}
+
+
+</script>
+
+</body>
+</html>
